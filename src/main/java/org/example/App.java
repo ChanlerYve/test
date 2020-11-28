@@ -1,6 +1,6 @@
 package org.example;
 
-import org.apache.commons.math3.linear.OpenMapRealVector;
+//import org.apache.commons.math3.linear.OpenMapRealVector;
 
 import java.util.Scanner;
 public class App {
@@ -94,7 +94,7 @@ public class App {
 
         Judger.judgeAll();
 
-        OpenMapRealVector openMapRealVector=new OpenMapRealVector(7);
+        //OpenMapRealVector openMapRealVector=new OpenMapRealVector(7);
 
     }
 
