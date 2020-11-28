@@ -45,7 +45,7 @@ public class App {
         boolean dflag;
 
         //此处注入错误，正确表达式应为if (day > 0 && day <= top)
-        if (day < 0 && day <= top) {
+        if (day > 0 && day <= top) {
             dayFlag = 1;
             dflag = true;
         }
