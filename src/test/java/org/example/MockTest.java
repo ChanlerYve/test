@@ -23,8 +23,8 @@ public class MockTest {
         //checkDay中注入了一个错误，检测stub是否能屏蔽掉
         app.setMonth(12);
         app.setDay(31);
-        //Assert.assertEquals(true,app.checkDay());
-        //Assert.assertEquals(1,app.checkMonth());
+        Assert.assertEquals(true,app.checkDay());
+        Assert.assertEquals(1,app.checkMonth());
         Assert.assertEquals(true,app.judgeAll());
 
     }
